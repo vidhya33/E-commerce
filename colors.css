@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #21216c; /* blue */
+    --secondary-color:  #2b4da2;
+    --tertiary-color: #525252;
+    --background-color: #ffffff;
+    --border-color: #000000; 
+    --wrapper-color:  #f9f9f9;
+    --anchor-color:#5b7a8f;
+    --hover-color:#C7511F;
+    --button-hover:#21216cac;
+  }

@@ -1,0 +1,195 @@
+.your-orders h1, p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.your-orders {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.Account-section {
+    margin-top: 20px;
+    color: #333;
+}
+
+.Account-section a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.Account-section label {
+    margin: 0 5px;
+}
+
+
+.Tabs {
+    margin-top: 20px;
+}
+
+.Tabs a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+
+.OrderPlaced {
+    margin-top: 20px;
+}
+
+.OrderPlaced label, .OrderPlaced select {
+    margin-right: 10px;
+}
+
+.Order-section {
+    margin-top: 20px;
+    border: 2px solid gray;
+}
+.Order-section .ordername{
+    background-color: beige;
+}
+
+.Order-section > div{
+    padding: 10px;
+}
+
+
+.Order-section h1 {
+    color: rgb(54, 142, 54);
+}
+
+.Order-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.Order-details {
+    width: 40%;
+    min-width: 300px;
+    border:none;
+}
+
+.Order-section p {
+    padding: 0.5rem;
+}
+
+
+button {
+    padding: 5px 10px;
+    margin-right: 10px; 
+}
+
+.backcase {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 2px;
+    align-self: center;
+}
+.backcase button{
+    width: 100%;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.archive a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .your-orders {
+        width: 90%;
+    }
+}
+
+.YourOrder label{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Tabs a:nth-child(1):hover
+{
+    color: #333;
+}
+
+.Tabs a:hover{
+      color:  #007BFF;
+}
+
+.search_field input{
+    height: 58%;
+}
+
+.search_field_div{
+    display: flex;
+    align-items:center ;
+}
+.para{
+    border: none;
+}
+
+.flex{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.search_field{
+    display: flex;
+}
+
+.order_placed,.ship,.total{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.ordername{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordernamel{
+    display: flex;
+    gap: 20px;
+}
+.orderid{
+   display: flex;
+   align-items: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    border:none;
+}
+
+.flex-row img{
+    align-self: center;
+}
+
+.button-group{
+    border:none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
